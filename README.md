@@ -1,1 +1,1 @@
-solution for leetcode.com
+Solutions for leetcode.com
