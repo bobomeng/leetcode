@@ -1,0 +1,3 @@
+select name as Customers from
+(select customers.name, orders.customerid from customers left join orders on customers.id = orders.customerid) as t1
+where t1.customerid is null;
